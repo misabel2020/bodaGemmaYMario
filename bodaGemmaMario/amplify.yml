@@ -3,8 +3,5 @@ frontend:
   phases:
     build:
       commands:
-        - npm install -g bodaGemmaMario
-        - bodaGemmaMario deploy
-        - yarn run build
   artifacts:
-    baseDirectory: public
+    baseDirectory: /public
