@@ -3,5 +3,7 @@ frontend:
   phases:
     build:
       commands:
+        - npm install
+        - yarn run build
   artifacts:
     baseDirectory: /public
